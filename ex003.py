@@ -1,0 +1,7 @@
+nm = input('Digite qualquer coisa: ')
+print('O tipo primitivo é:', type(nm))
+print('O elemento', nm, 'é um número?', nm.isnumeric())
+print('O elemento', nm, 'está em letra maiúscula?', nm.isupper())
+print('O elemento', nm, 'possui letras do alfabeto?', nm.isalpha())
+print('O elemento', nm, 'possui letras e números?', nm.isalnum())
+print('O elemento', nm, 'está em letra minúscula?', nm.islower())
